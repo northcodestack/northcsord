@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include northcord *.py
+recursive-include data *.json
+recursive-include data/themes *.txt
+recursive-include tests *.py
+global-exclude __pycache__
+global-exclude *.pyc
+global-exclude *.pyo
